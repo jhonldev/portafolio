@@ -1,0 +1,38 @@
+.footer {
+  text-align: right;
+  padding: 1rem;
+  border-top: #000000 0.1rem solid;
+  display:flex;
+  flex: 1;
+}
+
+.holder {
+  background-color: #A2A1A1;
+  background-size: cover;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  bottom: 0;
+}
+
+.holder img {
+  width: 20px;
+  height: auto;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.img-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.footer p {
+  padding-right: 1rem;
+  font-weight: bolder;
+}
+
+.display-center {
+  margin-top: 1rem;
+}
