@@ -1,0 +1,33 @@
+@media (max-width: 500px) {
+  a {
+    display: none;
+  }
+}
+
+.navbar {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+  border-bottom: #000000 0.1rem solid;
+}
+
+.navbar-item-special{
+  color: #b2b2b2;
+  background-color: #000000;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 5px;
+}
+
+.holder {
+  background-image: url('../../assets/background.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
